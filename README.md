@@ -18,6 +18,21 @@ This project contains to apply AI model that is built on the results from CFD si
 * progressbar2 ~= 3.38.0
 * (Optional) GPU/multi GPUs with CUDA
 
+## Template Notebooks
+
+### SVD-AE
+[![Open In Colab](https://colab.research.google.com/-)](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
+//main/Colab_Notebooks/-.ipynb)
+
+### PredGAN
+[![Open In Colab](https://colab.research.google.com/-)](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
+//main/Colab_Notebooks/-.ipynb)
+
+### SFC-CAE
+[![Open In Colab](https://colab.research.google.com/-)](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
+/main/Colab_Notebooks/-.ipynb)
+
+
 ## License
 
 Distributed under the Apache 2.0 License.
