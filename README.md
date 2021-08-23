@@ -31,6 +31,8 @@ This project contains to apply AI model that is built on the results from CFD si
 ### SFC-CAE
 [Visualise In Colab](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
+### T-SNE visualisation of latent variables
+[Visualise In Colab](t_SNE_visualisation.ipynb)
 
 ## License
 
