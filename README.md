@@ -28,11 +28,11 @@ This project contains to apply AI model that is built on the results from CFD si
 [Visualise In Colab](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
 //main/Colab_Notebooks/-.ipynb)
 
-### SFC-CAE
-[Visualise In Colab](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
+### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
-### T-SNE visualisation of latent variables
-[Visualise In Colab](t_SNE_visualisation.ipynb)
+
+### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
+
 
 ## License
 
