@@ -21,15 +21,15 @@ This project contains to apply AI model that is built on the results from CFD si
 ## Template Notebooks
 
 ### SVD-AE
-[![Open In Colab](https://colab.research.google.com/-)](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
+[Visualise In Colab](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
 //main/Colab_Notebooks/-.ipynb)
 
 ### PredGAN
-[![Open In Colab](https://colab.research.google.com/-)](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
+[Visualise In Colab](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
 //main/Colab_Notebooks/-.ipynb)
 
 ### SFC-CAE
-[![Open In Colab](https://colab.research.google.com/-)](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
+[Visualise In Colab](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
 
 ## License
