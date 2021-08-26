@@ -34,6 +34,7 @@ The room where the experimental data had been collected is located in the Claren
 * torch >= 1.8.0
 * Tensorflow >= 2.0
 * numpy >= 1.19.5
+* h5py ~= 3.4.0
 * matplotlib ~= 3.2.2
 * vtk >= 9.0
 * livelossplot ~= 0.5.4
