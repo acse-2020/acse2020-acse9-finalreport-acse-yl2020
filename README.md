@@ -14,6 +14,39 @@
 
 ## Data assimilation using Generative Adversarial Networks to determine COVID-19 infection risks in enclosed spaces using autoencoders for compression
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
+
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-description">Project Description</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#download">Download</a></li>
+      </ul>
+    </li>
+    <li><a href="#Template-Notebooks">Colab Notebooks</a>
+      <ul>
+        <li><a href="#PredGAN">Burgers equation</a></li>
+        <li>
+            <ul>
+              <li><a href="#FPC-SFC-CAE">SFC-SAE</a></li>
+              <li><a href="#FPC-SVD-AE">SVD-AE</a></li>
+
+            </ul>
+        </li>
+      </ul>   
+    </li>
+    <li><a href="#License">License</a></li>
+    <li><a href="#Testing">Testing</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#Acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
 ## Project Description
 
 This project is to construct a reduced order  model  of  the  flow  inside  a  room  using  various  compression  methods  for  the  dimensionality reduction  and  a  GAN  for  the  prediction. Then  assimilated  some  data  collected  at  sensors from experiment with the DA-PredGAN algorithm.
