@@ -30,7 +30,7 @@
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
       <ul>
-        <li><a href="#src/PredGAN/PredGAN.ipynb">PredGAN</a></li>
+        <li><a href="#PredGAN.ipynb">PredGAN</a></li>
         <li>
           <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>        
           <li><a href="#SFC-CAE">SFC-CAE</a></li>
@@ -81,12 +81,12 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [SVD-AE, PCA, NMF with GAN training]()
+### [SVD-AE, PCA, NMF with GAN training](src/Compressions and training/Compression_and_training.ipynb)
 
 
-### [PredGAN](PredGAN/PredGAN.ipynb)
+### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
-### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
+### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb)
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
