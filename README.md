@@ -90,6 +90,19 @@ The room where the experimental data had been collected is located in the Claren
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
+Compression and training: extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
+
+DA-PredGAN: implement DA-PredGAN algorithm.
+
+PredGAN: train an GAN network to predict and assimilate data.
+
+SFC-CAE: implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
+
+T-SNE visualisation of latent variables: visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
+
+\item trial and error: the trial and error of different models and hyper-parameter settings of the generator, discriminator and autoencoder are put into this folder.
+\end{itemize}
+
 ## Google shared link
 
 As the pkl files e.g. autoencoder_py_43.pkl (latent representations from SFC-CAE is over 100M GitHub upload limitation), we shared the Google drive for you if you want to download: [model link](https://drive.google.com/drive/folders/1o7u_-hJpF6gLP1jXYB3ZlVBcwmrvfBpt?usp=sharing).
