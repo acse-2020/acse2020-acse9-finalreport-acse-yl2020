@@ -1,0 +1,24 @@
+name: DA_PredGAN_with_compressions
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip
+  - wheel
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy
+  - scipy
+  - pip:
+    - tensorflow
+    - torch
+    - h5py
+    - vtk
+    - progressbar
+    - livelossplot
+    - meshio[all]
+    - cmocean
+    - dash
+    
