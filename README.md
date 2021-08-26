@@ -16,23 +16,16 @@
 
 ## Project Description
 
-This project contains to apply AI model that is built on the results from CFD simulations to predict the CO2 distribution within a room based on CO2 sensor data that is limited and observations from field campaign based on different non-linear dimensionality reduction methods, and it is combined with data from sensors that are located in optimal spatial locations to improve accuracy of the models from AE-based ROMs to predict the risk of airborne COVID infection within a room. The project is built based on the work DA-PredGAN(https://arxiv.org/abs/2105.07729), SFC-CAE(https://arxiv.org/abs/2011.14820) and SVD-AE(https://arxiv.org/abs/2008.10532).
+This project contains to apply AI model that is built on the results from CFD simulations to predict the CO2 distribution within a room based on CO2 sensor data that is limited and observations from field campaign based on different non-linear dimensionality reduction methods, and it is combined with data from sensors that are located in optimal spatial locations to improve accuracy of the models from AE-based ROMs to predict the risk of airborne COVID infection within a room. The project is built based on the work [DA-PredGAN](https://arxiv.org/abs/2105.07729), [SFC-CAE](https://arxiv.org/abs/2011.14820) and [SVD-AE](https://arxiv.org/abs/2008.10532).
 
 ## Know about where our data has been collected
 
 <br />
-<p align="left">
-    <img src="readme_files/room.png">
-    <figcaption> room of collecting data </figcaption>
-  </a>
+<p float="left">
+  <img src="readme_files/room.png" width="400" height="400"/>
+  <img src="readme_files/sensor_room.png" width="400" height="400"/> 
 </p>
-
-<p align="right">
-    <img src="readme_files/sensor_room.png">
-    <figcaption> Sensors location within the room </figcaption>
-  </a>
-</p>
-
+The room where the experimental data had been collected is located in the Clarence Centre (belonging to London South Bank University) and has 3 windows, two on one side with 1 on the other facing the road in London. Levels of CO2 were collected by seven sensors located at different optimised positions within the room(https://link.springer.com/article/10.21136/AM.2021.0307-19). Provided by Laetitia Mottet, the given simulation data set consists of 455 (time series) vtu files.
 
 ## Getting started
 ### Dependencies
