@@ -8,25 +8,24 @@ This project contains to apply AI model that is built on the results from CFD si
 ### Dependencies
 
 * Python ~= 3.8.5
+* torch >= 1.8.0
+* Tensorflow >= 2.0
 * numpy >= 1.19.5
 * matplotlib ~= 3.2.2
 * vtk >= 9.0
 * livelossplot ~= 0.5.4
 * meshio[all]
 * cmocean ~= 2.0
-* torch >= 1.8.0
+
 * progressbar2 ~= 3.38.0
 * (Optional) GPU/multi GPUs with CUDA
 
 ## Template Notebooks
 
-### SVD-AE
-[Visualise In Colab](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
-//main/Colab_Notebooks/-.ipynb)
+### [SVD-AE, PCA, NMF with GAN training]()
 
-### PredGAN
-[Visualise In Colab](http://colab.research.google.com/github/acse-yl2020/acse2020-acse9-finalreport-acse-yl2020
-//main/Colab_Notebooks/-.ipynb)
+
+###[PredGAN]()
 
 ### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
