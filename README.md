@@ -115,3 +115,7 @@ Would like to thanks my supervisors for the guides:
 * Dr. Claire Heaney
 * Prof. Christopher Pain 
 * Dr. Laetitia Mottet
+
+Sanjana, Jamesson and Danhui for their selfless support. It was been a pleasure to work you guys.
+
+I do appreciate.
