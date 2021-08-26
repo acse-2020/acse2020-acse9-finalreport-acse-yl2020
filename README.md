@@ -80,7 +80,7 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [SVDAE PCA NMF with GAN training](src/Compressions and training/Compression_and_training.ipynb)
+### [Compression_and_training](src/Compressions and training/Compression_and_training.ipynb)
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
@@ -94,7 +94,7 @@ As the pkl files e.g. autoencoder_py_43.pkl (latent representations from SFC-CAE
 
 While the most of the pkl files used to scale, store the data are over limitations, here we shared the link in case want to have a look: [large files](https://drive.google.com/drive/folders/19xJlN0VifwOlvj-y9aungSZKTPPyv4J7?usp=sharing). The link includes the latent variables (43 and 16), GAN model generator...
 
-The ClarenceCentre data could either be obtained by Wget command provided in the [SVD-AE, PCA, NMF with GAN training]() or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
+The ClarenceCentre data could either be obtained by Wget command provided in the [Compression_and_training](src/Compressions and training/Compression_and_training.ipynb) or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
 
 
 ## License
