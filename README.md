@@ -25,7 +25,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#Google-shared-link">Download</a></li>
+        <li><a href="#Google-shared-link">Google shared links</a></li>
       </ul>
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
