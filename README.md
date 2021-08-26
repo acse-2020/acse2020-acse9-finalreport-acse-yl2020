@@ -23,7 +23,7 @@ To know what GAN is, here is the paper of [GAN](https://arxiv.org/abs/1406.2661)
 ## Know about where our data has been collected
 
 <br />
-<p float="left">
+<p float="center">
   <img src="readme_files/room.png" width="400" height="400"/>
   <img src="readme_files/sensor_room.png" width="400" height="400"/> 
 </p>
