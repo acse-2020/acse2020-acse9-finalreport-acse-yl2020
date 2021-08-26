@@ -1,3 +1,17 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/acse-2020/">
+    <img src="readme_file/logo_imperial_college_london.png" alt="Logo" width="270" height="100">
+  </a>
+  
+  <h3 align="center">X-ray-Classification</h3>
+  <p align="center">
+    
+  </p>
+</p>
+
+
 ## Data assimilation using Generative Adversarial Networks to determine COVID-19 infection risks in enclosed spaces using autoencoders for compression
 
 ## Project Description
