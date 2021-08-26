@@ -49,7 +49,7 @@ The room where the experimental data had been collected is located in the Claren
 ### [SVD-AE, PCA, NMF with GAN training]()
 
 
-###[PredGAN]()
+###[PredGAN](PredGAN/PredGAN.ipynb)
 
 ### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
