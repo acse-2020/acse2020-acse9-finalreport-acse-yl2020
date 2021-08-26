@@ -21,13 +21,13 @@ This project contains to apply AI model that is built on the results from CFD si
 ## Know about where our data has been collected
 
 <br />
-<p align="center">
+<p align="left">
     <img src="readme_files/room.png">
     <figcaption> room of collecting data </figcaption>
   </a>
 </p>
 
-<p align="center">
+<p align="right">
     <img src="readme_files/sensor_room.png">
     <figcaption> Sensors location within the room </figcaption>
   </a>
