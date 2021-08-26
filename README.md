@@ -15,6 +15,7 @@
 ## Data assimilation using Generative Adversarial Networks to determine COVID-19 infection risks in enclosed spaces using autoencoders for compression
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
 
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -27,15 +28,13 @@
         <li><a href="#download">Download</a></li>
       </ul>
     </li>
-    <li><a href="#Template-Notebooks">Colab Notebooks</a>
+    <li><a href="#Colab-Notebooks">Colab Notebooks</a>
       <ul>
         <li><a href="#PredGAN">PredGAN</a></li>
         <li>
-          <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>
-            <ul>
-              <li><a href="#SFC-CAE">SFC-CAE</a></li>
-              <li><a href="#T-SNE visualisation of latent variables">T-SNE visualisation of latent variables</a></li>
-
+          <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>        
+          <li><a href="#SFC-CAE">SFC-CAE</a></li>
+          <li><a href="#T-SNE visualisation of latent variables">T-SNE visualisation of latent variables</a></li>
             </ul>
         </li>
       </ul>   
@@ -80,7 +79,7 @@ The room where the experimental data had been collected is located in the Claren
 * progressbar2 ~= 3.38.0
 * (Optional) GPU/multi GPUs with CUDA
 
-## Template Notebooks
+## Colab Notebooks
 
 ### [SVD-AE, PCA, NMF with GAN training]()
 
