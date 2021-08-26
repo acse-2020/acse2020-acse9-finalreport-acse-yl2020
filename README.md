@@ -81,14 +81,14 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [SVD-AE,PCA,NMF-with-GAN-training]()
+### [SVD-AE, PCA, NMF with GAN training]()
 
 
 ### [PredGAN](PredGAN/PredGAN.ipynb)
 
 ### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
 
-### [T-SNE-visualisation-of-latent-variables](t_SNE_visualisation.ipynb)
+### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
 ## Google shared link
 
