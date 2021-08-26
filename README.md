@@ -49,10 +49,9 @@ The room where the experimental data had been collected is located in the Claren
 ### [SVD-AE, PCA, NMF with GAN training]()
 
 
-###[PredGAN](PredGAN/PredGAN.ipynb)
+### [PredGAN](PredGAN/PredGAN.ipynb)
 
 ### [SFC-CAE](PredGAN/SFC-CAE/SFC_CAE_Compression.ipynb)
-
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
