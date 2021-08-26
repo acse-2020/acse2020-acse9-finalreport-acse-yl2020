@@ -84,6 +84,8 @@ The room where the experimental data had been collected is located in the Claren
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
+### [DA-PredGAN](src/DA-PredGAN/DA_PredGAN_enhanced.ipynb)
+
 ### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb)
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
