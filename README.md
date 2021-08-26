@@ -80,7 +80,7 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [Compression_and_training](src/Compressions and training/Compression_and_training.ipynb)
+### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb)
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
