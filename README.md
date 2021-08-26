@@ -78,15 +78,15 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb): extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
+### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb):  extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
 
-### [PredGAN](src/PredGAN/PredGAN.ipynb): train an GAN network to predict and assimilate data.
+### [PredGAN](src/PredGAN/PredGAN.ipynb):  train an GAN network to predict and assimilate data.
 
-### [DA-PredGAN](src/DA-PredGAN/DA_PredGAN_enhanced.ipynb): implement DA-PredGAN algorithm.
+### [DA-PredGAN](src/DA-PredGAN/DA_PredGAN_enhanced.ipynb):  implement DA-PredGAN algorithm.
 
-### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb): implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
+### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb):  implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
 
-### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb): visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
+### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb):  visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
 
 
 ## Google shared link
@@ -121,6 +121,4 @@ Would like to thanks my supervisors for the guides:
 * Prof. Christopher Pain 
 * Dr. Laetitia Mottet
 
-Sanjana, Jamesson and Danhui for their selfless support. It was been a pleasure to work you guys.
-
-I do appreciate.
+It was been a pleasure to work and be friends with group members Sanjana, Jamesson and Danhui.
