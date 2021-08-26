@@ -99,7 +99,6 @@ While the most of the pkl files used to scale, store the data are over limitatio
 The ClarenceCentre data could either be obtained by Wget command provided in the [SVD-AE, PCA, NMF with GAN training]() or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
 
 
-
 ## License
 
 Distributed under the Apache 2.0 License.
