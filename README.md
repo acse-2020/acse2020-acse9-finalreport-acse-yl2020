@@ -55,6 +55,12 @@ The room where the experimental data had been collected is located in the Claren
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
+## Google shared link
+
+As the pkl files e.g. autoencoder_py_43.pkl (latent representations from SFC-CAE is over 100M GitHub upload limitation), we shared the Google drive for you if you want to download: https://drive.google.com/drive/folders/1o7u_-hJpF6gLP1jXYB3ZlVBcwmrvfBpt?usp=sharing.
+
+The link includes the latent variables (43 and 16), GAN model generator...
+
 ## License
 
 Distributed under the Apache 2.0 License.
