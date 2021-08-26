@@ -23,6 +23,7 @@ This project contains to apply AI model that is built on the results from CFD si
 
 [sensor location](readme_files/sensor room.png)
 
+
 ## Getting started
 ### Dependencies
 
