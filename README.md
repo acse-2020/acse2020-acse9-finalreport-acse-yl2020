@@ -25,7 +25,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#download">Download</a></li>
+        <li><a href="#Google-shared-link">Download</a></li>
       </ul>
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
@@ -99,9 +99,6 @@ PredGAN: train an GAN network to predict and assimilate data.
 SFC-CAE: implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
 
 T-SNE visualisation of latent variables: visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
-
-\item trial and error: the trial and error of different models and hyper-parameter settings of the generator, discriminator and autoencoder are put into this folder.
-\end{itemize}
 
 ## Google shared link
 
