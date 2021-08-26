@@ -33,7 +33,6 @@ This project contains to apply AI model that is built on the results from CFD si
 
 ### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
 
-
 ## License
 
 Distributed under the Apache 2.0 License.
