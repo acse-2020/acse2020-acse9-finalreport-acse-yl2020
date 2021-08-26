@@ -81,3 +81,4 @@ Some simple and basic tests for the module are avaliable in the .ipynb files.
 Would like to thanks my supervisors for the guides:
 * Dr. Claire Heaney
 * Prof. Christopher Pain 
+* Dr. Laetitia Mottet
