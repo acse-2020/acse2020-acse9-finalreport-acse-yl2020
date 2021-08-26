@@ -25,7 +25,7 @@ This project contains to apply AI model that is built on the results from CFD si
   <img src="readme_files/room.png" width="400" height="400"/>
   <img src="readme_files/sensor_room.png" width="400" height="400"/> 
 </p>
-The room where the experimental data had been collected is located in the Clarence Centre (belonging to London South Bank University) and has 3 windows, two on one side with 1 on the other facing the road in London. Levels of CO2 were collected by seven sensors located at different optimised positions within the [room](https://link.springer.com/article/10.21136/AM.2021.0307-19). Provided by Laetitia Mottet, the given simulation data set consists of 455 (time series) vtu files.
+The room where the experimental data had been collected is located in the Clarence Centre (belonging to London South Bank University) and has 3 windows, two on one side with 1 on the other facing the road in London. Levels of CO2 were collected by seven sensors located at different optimised positions within the room (https://link.springer.com/article/10.21136/AM.2021.0307-19). Provided by Laetitia Mottet, the given simulation data set consists of 455 (time series) vtu files.
 
 ## Getting started
 ### Dependencies
