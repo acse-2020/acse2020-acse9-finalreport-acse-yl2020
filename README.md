@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/acse-2020/">
-    <img src="readme_file/logo_imperial_college_london.png" alt="Logo" width="270" height="100">
+    <img src="readme_files/logo_imperial_college_london.png" alt="Logo" width="270" height="100">
   </a>
   
   <h3 align="center">X-ray-Classification</h3>
