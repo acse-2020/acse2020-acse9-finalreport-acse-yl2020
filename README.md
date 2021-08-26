@@ -61,16 +61,18 @@ The room where the experimental data had been collected is located in the Claren
 
 As the pkl files e.g. autoencoder_py_43.pkl (latent representations from SFC-CAE is over 100M GitHub upload limitation), we shared the Google drive for you if you want to download: [model link](https://drive.google.com/drive/folders/1o7u_-hJpF6gLP1jXYB3ZlVBcwmrvfBpt?usp=sharing).
 
-While the most of the pkl files used to scale, store the data are over limitations, here we shared the link in case want to have a look: [large files](https://drive.google.com/drive/folders/19xJlN0VifwOlvj-y9aungSZKTPPyv4J7?usp=sharing).
+While the most of the pkl files used to scale, store the data are over limitations, here we shared the link in case want to have a look: [large files](https://drive.google.com/drive/folders/19xJlN0VifwOlvj-y9aungSZKTPPyv4J7?usp=sharing). The link includes the latent variables (43 and 16), GAN model generator...
 
-The link includes the latent variables (43 and 16), GAN model generator...
+The ClarenceCentre data could either be obtained by Wget command provided in the [SVD-AE, PCA, NMF with GAN training]() or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
+
+
 
 ## License
 
 Distributed under the Apache 2.0 License.
 
 ## Testing 
-Some basic tests for the module are avaliable in the .ipynb files.
+Some simple and basic tests for the module are avaliable in the .ipynb files.
 
 ## Contact
 * Yushen Lin yl2020@imperial.ac.uk
