@@ -30,7 +30,7 @@
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
       <ul>
-        <li><a href="#PredGAN">PredGAN</a></li>
+        <li><a href="#src/PredGAN/PredGAN.ipynb">PredGAN</a></li>
         <li>
           <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>        
           <li><a href="#SFC-CAE">SFC-CAE</a></li>
