@@ -1,0 +1,251 @@
+
+```
+# 200-100-70-50-30-16-8-4
+#encoder = keras.models.Sequential([keras.layers.Dense(100, input_shape=[200],activation="elu"),
+#                  keras.layers.Dense(70, input_shape=[100],activation="elu"),
+#                  keras.layers.Dense(50, input_shape=[70],activation="elu"),
+#                  keras.layers.Dense(30, input_shape=[50],activation="elu"),
+#                  keras.layers.Dense(16, input_shape=[30],activation="elu"),                 
+#                  keras.layers.Dense(8, input_shape=[16],activation="elu"),
+#                  keras.layers.Dense(4)])
+
+#decoder = keras.models.Sequential([keras.layers.Dense(8, input_shape=[4],activation="elu"),
+#                  keras.layers.Dense(16, input_shape=[8],activation="elu"),                 
+#                  keras.layers.Dense(30, input_shape=[16],activation="elu"),
+#                  keras.layers.Dense(50, input_shape=[30],activation="elu"),
+#                  keras.layers.Dense(70, input_shape=[50],activation="elu"),
+#                  keras.layers.Dense(100, input_shape=[70],activation="elu"),
+#                  keras.layers.Dense(200),])
+
+''' 200-70-50-30-20
+encoder = keras.models.Sequential([keras.layers.Dense(70, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[70],activation="elu"),
+                  keras.layers.Dense(30, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(20)])                 
+                  #keras.layers.Dense(8, input_shape=[16],activation="elu"),
+                  #keras.layers.Dense(4)])
+
+decoder = keras.models.Sequential([keras.layers.Dense(30, input_shape=[20],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[30],activation="elu"),
+                  keras.layers.Dense(70, input_shape=[50],activation="elu"),
+                  #keras.layers.Dense(100, input_shape=[70],activation="elu"),
+                  keras.layers.Dense(200),])
+'''
+
+''' 200-100-50-25
+encoder = keras.models.Sequential([keras.layers.Dense(100, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(25)])
+decoder = keras.models.Sequential([keras.layers.Dense(50, input_shape=[25],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[50],activation="elu"),                 
+                  keras.layers.Dense(200),])
+'''
+
+'''200-100-70-50-25-10
+encoder = keras.models.Sequential([keras.layers.Dense(100, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(70, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[70],activation="elu"),
+                  keras.layers.Dense(25, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(10)])
+decoder = keras.models.Sequential([keras.layers.Dense(25, input_shape=[10],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[25],activation="elu"),
+                  keras.layers.Dense(70, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[70],activation="elu"),                 
+                  keras.layers.Dense(200),])
+'''
+
+''' 200-200-100-70-50-25-10 
+epochs = 30000
+batch_size = 20
+Nadam(lr=0.0004, beta_1=0.9, beta_2=0.999)
+encoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[200],activation="elu"),                
+                  keras.layers.Dense(70, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[70],activation="elu"),
+                  keras.layers.Dense(25, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(10)])
+decoder = keras.models.Sequential([keras.layers.Dense(25, input_shape=[10],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[25],activation="elu"),
+                  keras.layers.Dense(70, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[70],activation="elu"),  
+                  keras.layers.Dense(200, input_shape=[100],activation="elu"),               
+                  keras.layers.Dense(200),])
+'''
+
+''' 200-200-100-70-50-30-20-30-50-70-100-200-200 sucessful one when latent layers are 20
+encoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[200],activation="elu"),                
+                  keras.layers.Dense(70, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[70],activation="elu"),
+                  keras.layers.Dense(30, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(20)])
+decoder = keras.models.Sequential([keras.layers.Dense(30, input_shape=[20],activation="elu"),
+                  keras.layers.Dense(50, input_shape=[30],activation="elu"),
+                  keras.layers.Dense(70, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(100, input_shape=[70],activation="elu"),  
+                  keras.layers.Dense(200, input_shape=[100],activation="elu"),               
+                  keras.layers.Dense(200),])
+'''
+
+'''
+encoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(160, input_shape=[200],activation="elu"),                
+                  keras.layers.Dense(140, input_shape=[160],activation="elu"),
+                  keras.layers.Dense(120, input_shape=[140],activation="elu"),
+                  keras.layers.Dense(100)])
+decoder = keras.models.Sequential([keras.layers.Dense(120, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(140, input_shape=[120],activation="elu"),
+                  keras.layers.Dense(160, input_shape=[140],activation="elu"),
+                  keras.layers.Dense(200, input_shape=[160],activation="elu"),                
+                  keras.layers.Dense(200),])
+'''
+
+''' Successful one
+encoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(160, input_shape=[200],activation="elu"),                
+                  keras.layers.Dense(120, input_shape=[160],activation="elu"),
+                  keras.layers.Dense(100)])
+decoder = keras.models.Sequential([keras.layers.Dense(120, input_shape=[100],activation="elu"),
+                  keras.layers.Dense(160, input_shape=[120],activation="elu"),
+                  keras.layers.Dense(200, input_shape=[160],activation="elu"),             
+                  keras.layers.Dense(200),])
+'''
+
+'''
+encoder = keras.models.Sequential([keras.layers.Dense(400, input_shape=[400],activation="elu"),
+                  keras.layers.Dense(360, input_shape=[400],activation="elu"),                 
+                  keras.layers.Dense(340, input_shape=[360],activation="elu"),                
+                  keras.layers.Dense(320)])
+decoder = keras.models.Sequential([keras.layers.Dense(340, input_shape=[320],activation="elu"),
+                  keras.layers.Dense(360, input_shape=[340],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[360],activation="elu"),          
+                  keras.layers.Dense(400),])
+
+'''
+
+''' this is when latent layer is 200, successfully
+encoder = keras.models.Sequential([keras.layers.Dense(400, input_shape=[400],activation="elu"),
+                  keras.layers.Dense(320, input_shape=[400],activation="elu"),                 
+                  keras.layers.Dense(260, input_shape=[320],activation="elu"),                
+                  keras.layers.Dense(200)])
+decoder = keras.models.Sequential([keras.layers.Dense(260, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(320, input_shape=[260],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[320],activation="elu"),          
+                  keras.layers.Dense(400),])
+'''
+
+'''
+encoder = keras.models.Sequential([keras.layers.Dense(400, input_shape=[400],activation="elu"),
+                  keras.layers.Dense(320, input_shape=[400],activation="elu"),                 
+                  keras.layers.Dense(260, input_shape=[320],activation="elu"),     
+                  keras.layers.Dense(200, input_shape=[260],activation="elu"),             
+                  keras.layers.Dense(150)])
+decoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(260, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(320, input_shape=[260],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[320],activation="elu"),          
+                  keras.layers.Dense(400),])
+'''
+
+''' 63
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[455],activation="elu"), 
+                  keras.layers.Dense(350, input_shape=[400],activation="elu"),                
+                  keras.layers.Dense(300, input_shape=[350],activation="elu"),
+                  keras.layers.Dense(250, input_shape=[300],activation="elu"),        
+                  keras.layers.Dense(200, input_shape=[250],activation="elu"),             
+                  keras.layers.Dense(150)])
+decoder = keras.models.Sequential([keras.layers.Dense(200, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(250, input_shape=[200],activation="elu"),
+                  keras.layers.Dense(300, input_shape=[250],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[300],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[350],activation="elu"),      
+                  keras.layers.Dense(455, input_shape=[400],activation="elu"),     
+                  keras.layers.Dense(455),])
+'''
+
+''' loss: 43
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(360, input_shape=[455],activation="elu"), 
+                  keras.layers.Dense(260, input_shape=[360],activation="elu"),                            
+                  keras.layers.Dense(150)])
+decoder = keras.models.Sequential([keras.layers.Dense(260, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(360, input_shape=[260],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[360],activation="elu"),    
+                  keras.layers.Dense(455),])
+'''
+
+''' loss: 32
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[455],activation="elu"), 
+                  keras.layers.Dense(250, input_shape=[350],activation="elu"),                            
+                  keras.layers.Dense(150)])
+decoder = keras.models.Sequential([keras.layers.Dense(250, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[250],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[350],activation="elu"),    
+                  keras.layers.Dense(455),])
+'''
+
+''' loss: 43
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(300, input_shape=[455],activation="elu"),                            
+                  keras.layers.Dense(150)])
+decoder = keras.models.Sequential([keras.layers.Dense(300, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[300],activation="elu"),    
+                  keras.layers.Dense(455),])
+
+'''
+
+'''
+# lr = 0.00008 43
+# lr = 0.00005 47.18
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[455],activation="elu"),   
+                  keras.layers.Dense(350, input_shape=[400],activation="elu"),                          
+                  keras.layers.Dense(300)])
+decoder = keras.models.Sequential([keras.layers.Dense(350, input_shape=[300],activation="elu"),
+                  keras.layers.Dense(400, input_shape=[350],activation="elu"),    
+                  keras.layers.Dense(455, input_shape=[400],activation="elu"), 
+                  keras.layers.Dense(455),])
+'''
+
+'''
+# loss: 47, 46.5
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[455],activation="elu"), 
+                  keras.layers.Dense(250, input_shape=[350],activation="elu"),  
+                  keras.layers.Dense(150, input_shape=[250],activation="elu"),                           
+                  keras.layers.Dense(50)])
+decoder = keras.models.Sequential([keras.layers.Dense(150, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(250, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[250],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[350],activation="elu"),    
+                  keras.layers.Dense(455),])
+'''
+
+'''
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(435, input_shape=[455],activation="elu"),    
+                  keras.layers.Dense(415, input_shape=[435],activation="elu"),                        
+                  keras.layers.Dense(400)])
+decoder = keras.models.Sequential([keras.layers.Dense(415, input_shape=[400],activation="elu"),
+                  keras.layers.Dense(435, input_shape=[415],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[435],activation="elu"),
+                  keras.layers.Dense(455),])
+'''
+
+''' LOSS: 42
+encoder = keras.models.Sequential([keras.layers.Dense(455, input_shape=[455],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[455],activation="elu"),    
+                  keras.layers.Dense(250, input_shape=[350],activation="elu"),      
+                  keras.layers.Dense(150, input_shape=[250],activation="elu"),                   
+                  keras.layers.Dense(50)])
+decoder = keras.models.Sequential([keras.layers.Dense(150, input_shape=[50],activation="elu"),
+                  keras.layers.Dense(250, input_shape=[150],activation="elu"),
+                  keras.layers.Dense(350, input_shape=[250],activation="elu"),
+                  keras.layers.Dense(455, input_shape=[350],activation="elu"),
+                  keras.layers.Dense(455),])
+'''
+
+```
+
