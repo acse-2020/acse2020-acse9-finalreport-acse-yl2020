@@ -75,14 +75,12 @@ The room where the experimental data had been collected is located in the Claren
 * livelossplot ~= 0.5.4
 * meshio[all]
 * cmocean ~= 2.0
-
 * progressbar2 ~= 3.38.0
 * (Optional) GPU/multi GPUs with CUDA
 
 ## Colab Notebooks
 
 ### [SVD-AE, PCA, NMF with GAN training](src/Compressions and training/Compression_and_training.ipynb)
-
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
