@@ -5,7 +5,7 @@
     <img src="readme_files/logo_imperial_college_london.png" alt="Logo" width="270" height="100">
   </a>
   
-  <h3 align="center">X-ray-Classification</h3>
+  <h3 align="center">Final project</h3>
   <p align="center">
     
   </p>
