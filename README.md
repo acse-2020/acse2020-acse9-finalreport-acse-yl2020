@@ -80,7 +80,7 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [SVD-AE PCA NMF with GAN training](src/Compressions and training/Compression_and_training.ipynb)
+### [SVDAE PCA NMF with GAN training](src/Compressions and training/Compression_and_training.ipynb)
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb)
 
