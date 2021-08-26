@@ -11,10 +11,8 @@
   </p>
 </p>
 
-
 ## Data assimilation using Generative Adversarial Networks to determine COVID-19 infection risks in enclosed spaces using autoencoders for compression
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.txt)
-
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -80,25 +78,16 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
-### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb)
+### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb): extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
 
-### [PredGAN](src/PredGAN/PredGAN.ipynb)
+### [PredGAN](src/PredGAN/PredGAN.ipynb): train an GAN network to predict and assimilate data.
 
-### [DA-PredGAN](src/DA-PredGAN/DA_PredGAN_enhanced.ipynb)
+### [DA-PredGAN](src/DA-PredGAN/DA_PredGAN_enhanced.ipynb): implement DA-PredGAN algorithm.
 
-### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb)
+### [SFC-CAE](src/SFC-CAE/SFC_CAE_Compression.ipynb): implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
 
-### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb)
+### [T-SNE visualisation of latent variables](t_SNE_visualisation.ipynb): visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
 
-Compression and training: extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
-
-DA-PredGAN: implement DA-PredGAN algorithm.
-
-PredGAN: train an GAN network to predict and assimilate data.
-
-SFC-CAE: implement SFC-CAE approach for dimensionality reduction, including .py files for the models and Fortran code for SFCs.
-
-T-SNE visualisation of latent variables: visualise non-linear connections in latent variables extracted from different dimensionality reduction methods.
 
 ## Google shared link
 
@@ -108,6 +97,13 @@ While the most of the pkl files used to scale, store the data are over limitatio
 
 The ClarenceCentre data could either be obtained by Wget command provided in the [Compression_and_training](src/Compressions and training/Compression_and_training.ipynb) or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
 
+### download
+
+1. Clone the repository:
+```sh
+$ git clone https://github.com/acse-yl2020/acse-9-independent-research-project-yl2020
+```
+2. Upload to the Google drive using Colab to open the ipynb files.
 
 ## License
 
