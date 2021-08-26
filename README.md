@@ -30,7 +30,7 @@ The room where the experimental data had been collected is located in the Claren
 ## Getting started
 ### Dependencies
 
-* Python ~= 3.8.5
+* Python >= 3.5
 * torch >= 1.8.0
 * Tensorflow >= 2.0
 * numpy >= 1.19.5
