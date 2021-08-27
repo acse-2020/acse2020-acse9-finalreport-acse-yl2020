@@ -111,7 +111,8 @@ The ClarenceCentre data could either be obtained by Wget command provided in the
 
 1. Clone the repository:
 ```sh
-$ git clone https://github.com/acse-yl2020/acse-9-independent-research-project-yl2020
+
+$ git clone https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020.git
 ```
 2. Upload to the Google drive using Colab to open the ipynb files.
 
