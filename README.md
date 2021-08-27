@@ -37,7 +37,7 @@
         </li>
       </ul>   
     </li>
-    <li><a href="#Usage-of-code">License</a></li>
+    <li><a href="#Usage-of-code">Usage of code</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#Testing">Testing</a></li>
     <li><a href="#Contact">Contact</a></li>
