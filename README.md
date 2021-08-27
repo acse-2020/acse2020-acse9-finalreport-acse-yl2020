@@ -122,19 +122,19 @@ If you want to use on google drive, then
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
-and please change your dir once you are in different folder,
+and please change your dir once you are in different folder:
 
 ```sh
 os.chdir('/content/gdrive/MyDrive/dimension reduction')
 ```
 
-Assuming your dir is called 'I love ACSE', change to dir above to,
+Assuming your dir is called 'I love ACSE', change to dir above to:
 
 ```sh
 os.chdir('/content/gdrive/MyDrive/I love ACSE')
 ```
 
-In the .ipynb files, the models like encoder, generator and scaler etc. are saved in .pkl files and stored in different files e.g. /output_files, if you want to import these models, e.g. scaler_std for scaling the data, and assuming your folder of saving it is 'I_love_saving', then change
+In the .ipynb files, the models like encoder, generator and scaler etc. are saved in .pkl files and stored in different files e.g. /output_files, if you want to import these models, e.g. scaler_std for scaling the data, and assuming your folder of saving it is 'I_love_saving', then change:
 
 ```sh
 scaler_std = joblib.load('output_files/scaler_std_full.pkl')
@@ -145,7 +145,7 @@ to
 scaler_std = joblib.load('I_love_saving/scaler_std_full.pkl')
 ```
 
-Our code is built by using GPU acclerating from Google Colab. ' Set change run time type ' to  GPU Acceleration and high-RAM usage under the toolbox ' Runtime ' which could speed up the computations.
+Our code is built by using GPU acceleration from Google Colab. ' Set change run time type ' to  GPU Acceleration and high-RAM usage under the toolbox ' Runtime ' which could speed up the computations. Otherwise, the code on acceleration will not work and may raise run-time error.
 
 Due to the limitations of upload large files, the gifs of reconstruction to physical space in ParaView could be created by 'Create_Gif.ipynb' in src. 
 
