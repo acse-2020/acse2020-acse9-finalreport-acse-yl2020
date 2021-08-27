@@ -63,7 +63,7 @@ To know what GAN is, here is the paper of [GAN](https://arxiv.org/abs/1406.2661)
 </p>
 The room where the experimental data had been collected is located in the Clarence Centre (belonging to London South Bank University) and has 3 windows, two on one side with 1 on the other facing the road in London. Levels of CO2 were collected by seven sensors located at different optimised positions within the room(https://link.springer.com/article/10.21136/AM.2021.0307-19). Provided by Laetitia Mottet, the given simulation data set consists of 455 (time series) vtu files.
 
-Five vtu files are put into ClarenceData to give a rough idea about what data is. Refer to Compression and training.ipynb or description below to download the data. And there is [word](README_CO2Data.docx) doc about the explainations of what are the files in the ClarenceData files.
+Five vtu files are put into ClarenceData to give a rough idea about what data is. Refer to Compression and training.ipynb or description below to download the data. And there is [word](README_CO2Data.docx) doc about the explainations of what are the files in the ClarenceData files Provided by Laetitia Mottet.
 
 
 
