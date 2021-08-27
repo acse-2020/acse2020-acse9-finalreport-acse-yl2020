@@ -23,7 +23,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#Google-shared-link">Google shared links and download</a></li>
+        <li><a href="#Google-shared-link">Google shared links and Download</a></li>
       </ul>
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
@@ -100,7 +100,7 @@ While the most of the pkl files used to scale, store the data are over limitatio
 
 The ClarenceCentre data could either be obtained by Wget command provided in the [Compression_and_training](src/Compressions and training/Compression_and_training.ipynb) or the link of [google drive](https://drive.google.com/drive/folders/1ckjONW4EyLBkWUcJE7JqG-RZDz376X4G?usp=sharing).
 
-### download
+### Download
 
 1. Clone the repository:
 ```sh
