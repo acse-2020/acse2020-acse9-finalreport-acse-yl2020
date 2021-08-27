@@ -147,6 +147,8 @@ scaler_std = joblib.load('I_love_saving/scaler_std_full.pkl')
 
 Our code is built by using GPU acclerating from Google Colab. ' Set change run time type ' to  GPU Acceleration and high-RAM usage under the toolbox ' Runtime ' which could speed up the computations.
 
+Due to the limitations of upload large files, the gifs of reconstruction to physical space in ParaView could be created by 'Create_Gif.ipynb' in src. 
+
 ## License
 
 Under the Apache 2.0 License.
