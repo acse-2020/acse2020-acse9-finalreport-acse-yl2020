@@ -81,6 +81,8 @@ The room where the experimental data had been collected is located in the Claren
 
 ## Colab Notebooks
 
+The code are mainly put in the src files.
+
 ### [Compression and training](https://github.com/acse-2020/acse2020-acse9-finalreport-acse-yl2020/blob/0abb114cc99243e7ef43f4354fac999c199f39f5/src/Compressions%20and%20training/Compression_and_training.ipynb):  extract data from vtu files and proposed dimensionality reduction approaches on dataset, then train the GAN based on the latent variables from different methods. 
 
 ### [PredGAN](src/PredGAN/PredGAN.ipynb):  train an GAN network to predict and assimilate data.
