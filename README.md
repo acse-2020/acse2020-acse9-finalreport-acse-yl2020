@@ -37,6 +37,7 @@
         </li>
       </ul>   
     </li>
+    <li><a href="#Usage-of-code">License</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#Testing">Testing</a></li>
     <li><a href="#Contact">Contact</a></li>
@@ -109,7 +110,7 @@ $ git clone https://github.com/acse-yl2020/acse-9-independent-research-project-y
 
 ## Usage of code
 
-This project was carried out and built under Google Colab with Python 3.5. In order to execute the functions in vtktools including read and write vtu files etc,
+This project was carried out and built under Google Colab with Python 3.5 for its superior visualisation and I/O processing. You could also execute in jupyter notebook by setting the paths and importing libraies correctly (following Dependencies). In order to execute the functions in vtktools including read and write vtu files etc,
 
 ```sh
 pip install vtk
@@ -124,7 +125,18 @@ os.chdir('/content/gdrive/MyDrive/dimension reduction')
 Assuming your dir is called 'I love ACSE', to change to dir above to,
 
 ```sh
-os.chdir('/I love ACSE')
+os.chdir('/content/gdrive/MyDrive/I love ACSE')
+```
+
+In the .ipynb files, the models like encoder, generator and scaler etc. are saved in .pkl files and stored in different files e.g. /output_files, if you want to import these models, e.g. scaler_std for scaling the data, and assuming your folder of saving it is 'I_love_saving', then change
+
+```sh
+scaler_std = joblib.load('output_files/scaler_std_full.pkl')
+```
+to
+
+```sh
+scaler_std = joblib.load('I_love_saving/scaler_std_full.pkl')
 ```
 
 ## License
