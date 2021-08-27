@@ -32,7 +32,7 @@
         <li>
           <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>        
           <li><a href="#SFC-CAE">SFC-CAE</a></li>
-          <li><a href="#t_SNE_visualisation.ipynb">T-SNE visualisation of latent variables</a></li>
+          <li><a href="#tT-SNE-visualisation-of-latent-variables">T-SNE visualisation of latent variables</a></li>
             </ul>
         </li>
       </ul>   
