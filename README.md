@@ -28,11 +28,11 @@
     </li>
     <li><a href="#Colab-Notebooks">Colab Notebooks</a>
       <ul>
-        <li><a href="#PredGAN.ipynb">PredGAN</a></li>
+        <li><a href="#PredGAN">PredGAN</a></li>
         <li>
           <a href="#SVD-AE, PCA, NMF with GAN training">SVD-AE, PCA, NMF with GAN training</a>        
           <li><a href="#SFC-CAE">SFC-CAE</a></li>
-          <li><a href="#T-SNE visualisation of latent variables">T-SNE visualisation of latent variables</a></li>
+          <li><a href="#t_SNE_visualisation.ipynb">T-SNE visualisation of latent variables</a></li>
             </ul>
         </li>
       </ul>   
