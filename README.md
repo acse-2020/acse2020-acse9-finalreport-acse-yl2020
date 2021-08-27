@@ -30,7 +30,7 @@
       <ul>
         <li><a href="#PredGAN">PredGAN</a></li>
         <li> <a href="#DA-PredGAN">DA-PredGAN</a></li>
-          <a href="#Compression-and-training">SVD-AE, PCA, NMF with GAN training</a>        
+         <li><a href="#Compression-and-training">SVD-AE, PCA, NMF with GAN training</a>        
           <li><a href="#SFC-CAE">SFC-CAE</a></li>
           <li><a href="#tT-SNE-visualisation-of-latent-variables">T-SNE visualisation of latent variables</a></li>
             </ul>
@@ -43,6 +43,8 @@
     <li><a href="#Acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+
 
 
 ## Project Description
@@ -104,6 +106,26 @@ The ClarenceCentre data could either be obtained by Wget command provided in the
 $ git clone https://github.com/acse-yl2020/acse-9-independent-research-project-yl2020
 ```
 2. Upload to the Google drive using Colab to open the ipynb files.
+
+## Usage of code
+
+This project was carried out and built under Google Colab with Python 3.5. In order to execute the functions in vtktools including read and write vtu files etc,
+
+```sh
+pip install vtk
+```
+
+If you want to use on google drive, please change your dir once you are in different folder,
+
+```sh
+os.chdir('/content/gdrive/MyDrive/dimension reduction')
+```
+
+Assuming your dir is called 'I love ACSE', to change to dir above to,
+
+```sh
+os.chdir('/I love ACSE')
+```
 
 ## License
 
