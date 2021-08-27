@@ -116,13 +116,19 @@ This project was carried out and built under Google Colab with Python 3.5 for it
 pip install vtk
 ```
 
-If you want to use on google drive, please change your dir once you are in different folder,
+If you want to use on google drive, then
+
+```sh
+from google.colab import drive
+drive.mount('/content/gdrive')
+```
+and please change your dir once you are in different folder,
 
 ```sh
 os.chdir('/content/gdrive/MyDrive/dimension reduction')
 ```
 
-Assuming your dir is called 'I love ACSE', to change to dir above to,
+Assuming your dir is called 'I love ACSE', change to dir above to,
 
 ```sh
 os.chdir('/content/gdrive/MyDrive/I love ACSE')
@@ -143,7 +149,7 @@ Our code is built by using GPU acclerating from Google Colab. ' Set change run t
 
 ## License
 
-Distributed under the Apache 2.0 License.
+Under the Apache 2.0 License.
 
 ## Testing 
 Some simple and basic tests for the module are avaliable in the .ipynb files.
@@ -152,7 +158,7 @@ Some simple and basic tests for the module are avaliable in the .ipynb files.
 * Yushen Lin yl2020@imperial.ac.uk
 
 ## Acknowledgements
-Would like to thanks my supervisors for the guides:
+Would like to thanks my supervisors for the patient guides:
 * Dr. Claire Heaney
 * Prof. Christopher Pain 
 * Dr. Laetitia Mottet
