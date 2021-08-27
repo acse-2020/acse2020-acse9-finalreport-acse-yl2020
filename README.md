@@ -139,6 +139,8 @@ to
 scaler_std = joblib.load('I_love_saving/scaler_std_full.pkl')
 ```
 
+Our code is built by using GPU acclerating from Google Colab. ' Set change run time type ' to  GPU Acceleration and high-RAM usage under the toolbox ' Runtime ' which could speed up the computations.
+
 ## License
 
 Distributed under the Apache 2.0 License.
